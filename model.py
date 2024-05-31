@@ -14,7 +14,7 @@ model_loaded = data['model']
 preprocessor_loaded = data['preprocess']
 
 def show_predict_page():
-    st.image("C:\\Users\\winso\\Pictures\\0_vz_yu4mZ6Y69XSZg.png")
+    st.image("0_vz_yu4mZ6Y69XSZg.png")
     st.title('Customer Churning Prediction')
     
     text = """
