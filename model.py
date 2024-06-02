@@ -49,37 +49,37 @@ def show_predict_page():
     Online_Security = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Online_Backup = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Device_Protection = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Tech_Support = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Streaming_TV = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Streaming_Movies = (
         'Yes',
         'No',
-        'No internet serice'
+        'No internet service'
     )
 
     Contract = (
