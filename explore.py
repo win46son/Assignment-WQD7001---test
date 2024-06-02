@@ -23,7 +23,7 @@ def show_pie_chart(df, groupby_column, chart_title):
     group_data = df.groupby([groupby_column, 'Churn Label'])['Churn Value'].count().reset_index()
     fig = px.pie(group_data, values='Churn Value', names=groupby_column, facet_col='Churn Label', 
                  title=chart_title)
-    fig.update_traces(textfont_size=7)
+    fig.update_traces(textfont_size=15)
     st.plotly_chart(fig)
 
 def show_explore_page():
