@@ -19,7 +19,7 @@ def show_predict_page():
     
     text = """
     <div style='text-align: justify; font-family: "Times New Roman"'>
-    The chosen model is constructed using a decision tree algorithm, a powerful machine learning technique known for its high sensitivity. This model is specifically designed to predict the likelihood of customer churn, which refers to the probability of customers discontinuing their services or subscriptions. By accurately forecasting which customers are at risk of churning, businesses can implement targeted retention strategies to proactively address potential issues, enhance customer satisfaction, and ultimately reduce churn rates.
+    The chosen model is constructed using a random forest algorithm, a powerful machine learning technique known for its generalization. This model is specifically designed to predict the likelihood of customer churn, which refers to the probability of customers discontinuing their services or subscriptions. By accurately forecasting which customers are at risk of churning, businesses can implement targeted retention strategies to proactively address potential issues, enhance customer satisfaction, and ultimately reduce churn rates.
     </div>
     """
 
